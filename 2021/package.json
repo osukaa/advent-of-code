@@ -1,0 +1,19 @@
+{
+  "name": "2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "volta": {
+    "node": "16.13.1",
+    "npm": "8.2.0"
+  },
+  "dependencies": {
+    "args": "^5.0.1"
+  }
+}
