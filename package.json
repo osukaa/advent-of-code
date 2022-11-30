@@ -1,27 +1,32 @@
 {
-  "name": "@osukaa/2021",
+  "name": "@osukaa/adventofcode",
   "version": "1.0.0",
-  "description": "2021 aoc",
+  "description": "advent of code",
   "main": "index.mjs",
   "scripts": {
-    "start": "zx index.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "advent of code",
-    "aoc",
-    "2021"
-  ],
-  "author": "Oscar Funes <github@oscarfunes.email>",
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/osukaa/advent-of-code.git"
   },
+  "keywords": [
+    "advent",
+    "of",
+    "code"
+  ],
+  "author": "Oscar Funes <github@oscarfunes.email>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/osukaa/advent-of-code/issues"
   },
   "homepage": "https://github.com/osukaa/advent-of-code#readme",
+  "workspaces": [
+    "2021"
+  ],
+  "volta": {
+    "node": "16.18.1"
+  },
   "dependencies": {
     "zx": "^7.1.1"
   }
