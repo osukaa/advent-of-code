@@ -48,12 +48,12 @@ stacks = splitByStackLayer(stacks)
   .map((a) => a.map((b) => b[1]))
   .reverse();
 
-stacks = stacks[0].map((_, colIndex) => stacks.map((row) => row[colIndex])); 
+stacks = stacks[0].map((_, idx) => stacks.map((row) => row[idx])); 
 stacks = stacks.map((a) => a.filter((b) => b !== " "));
 
 console.log({ stacks });
 
-plan = plan
+plan
   .trim()
   .split('\n')
   .map((a) => moveRegex.exec(a))
